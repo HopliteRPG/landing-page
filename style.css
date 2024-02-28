@@ -119,12 +119,16 @@ body{
     font-size: 36px;
     color: black;
     padding: 15px;
+    font-weight: bold;
 }
+
+    /*Bottom Div Image Content*/
+
 
 .second-section-image-gallery{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 
@@ -132,6 +136,7 @@ body{
 .second-section-image-div{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .second-section-image{
@@ -139,12 +144,17 @@ body{
     height: 120px;
     color: black;
     border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+
 }
 
 .second-section-image-text{
+    margin-top: 5px;
     color: black;
     width: 120px;
     height: 120px;
     text-wrap: wrap;
     text-align: center;
+    font-size: 12px;
 }
