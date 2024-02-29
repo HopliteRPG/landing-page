@@ -158,3 +158,9 @@ body{
     text-align: center;
     font-size: 12px;
 }
+
+/*Third Section Stylization*/
+.third-section{
+    background-color: #E5E7EB;
+    display: flex;
+}
