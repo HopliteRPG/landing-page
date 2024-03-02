@@ -31,12 +31,12 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    flex: 1;
 }
 
 .left-first-section{
     display: flex;
-    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
     margin-left: 5%;
     align-items: center;
     font-size: 24px;
@@ -45,8 +45,10 @@ body{
 
 .right-first-section{
     display: flex;
-    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
     justify-content: center;
+    
 }
 
 .right-first-section ul{
@@ -69,7 +71,7 @@ body{
     /*Top Content */
 .first-section-content{
     display: flex;
-    flex: 2;
+    height: 50%;
 
 }
 
@@ -84,11 +86,14 @@ body{
 
 .left-first-section-content h1{
     margin: 0;
+
 }
 
 .left-first-section-content p{
     margin: 0;
     font-size: 16px;
+    padding-bottom: 10px;
+
 }
 
 .left-first-section-content button{
@@ -142,6 +147,8 @@ body{
     display: flex;
     justify-content: center;
     gap: 40px;
+    padding-bottom: 50px;
+
 }
 
 
@@ -182,6 +189,12 @@ body{
 
 }
 
+.third-section-quote{
+    font-size: 20px;
+    font-style: italic;
+
+}
+
 .third-section-content{
     display: flex;
     flex-direction: column;
@@ -193,6 +206,7 @@ body{
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    
 }
 
 .third-section-quote-attribution{
@@ -236,6 +250,8 @@ body{
 
 .call-to-action-button-div{
     flex: 1;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -248,8 +264,19 @@ body{
 .call-to-action-button{
     background-color: #3882F6;
     color: white;
-    border: none;
     border: solid white;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 5px 10px;
+}
+
+.call-to-action-text-top{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.call-to-action-text-bottom{
+    font-size: 16px;
 }
 
 .footer{
